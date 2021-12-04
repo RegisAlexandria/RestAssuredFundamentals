@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class GPathJsonTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class GPathJsonTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; GPathJsonTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.292s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">extractListOfValuesWithFindAll</td>
+<td class="success">6.292s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	GET
+Request URI:	http://api.football-data.org/v2/teams/57
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-Auth-Token=33111c92a65e454fa194bbe4ca6794fa
+				X-Response-Control=minified
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 
+Server: nginx/1.14.2
+Date: Fri, 03 Dec 2021 01:16:54 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Requests-Available-Minute: 9
+X-RequestCounter-Reset: 9
+X-API-Version: v2
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET
+X-Authenticated-Client: Regis
+Content-Language: en-US
+Content-Encoding: gzip
+
+{
+    &quot;id&quot;: 57,
+    &quot;area&quot;: {
+        &quot;id&quot;: 2072,
+        &quot;name&quot;: &quot;England&quot;
+    },
+    &quot;activeCompetitions&quot;: [
+        {
+            &quot;id&quot;: 2021,
+            &quot;area&quot;: {
+                &quot;id&quot;: 2072,
+                &quot;name&quot;: &quot;England&quot;
+            },
+            &quot;name&quot;: &quot;Premier League&quot;,
+            &quot;code&quot;: &quot;PL&quot;,
+            &quot;plan&quot;: &quot;TIER_ONE&quot;,
+            &quot;lastUpdated&quot;: &quot;2021-04-17T02:20:14Z&quot;
+        },
+        {
+            &quot;id&quot;: 2139,
+            &quot;area&quot;: {
+                &quot;id&quot;: 2072,
+                &quot;name&quot;: &quot;England&quot;
+            },
+            &quot;name&quot;: &quot;Football League Cup&quot;,
+            &quot;code&quot;: &quot;FLC&quot;,
+            &quot;plan&quot;: &quot;TIER_THREE&quot;,
+            &quot;lastUpdated&quot;: &quot;2021-01-07T02:40:01Z&quot;
+        }
+    ],
+    &quot;name&quot;: &quot;Arsenal FC&quot;,
+    &quot;shortName&quot;: &quot;Arsenal&quot;,
+    &quot;tla&quot;: &quot;ARS&quot;,
+    &quot;crestUrl&quot;: &quot;https://crests.football-data.org/57.svg&quot;,
+    &quot;address&quot;: &quot;75 Drayton Park London N5 1BU&quot;,
+    &quot;phone&quot;: &quot;+44 (020) 76195003&quot;,
+    &quot;website&quot;: &quot;http://www.arsenal.com&quot;,
+    &quot;email&quot;: &quot;info@arsenal.co.uk&quot;,
+    &quot;founded&quot;: 1886,
+    &quot;clubColors&quot;: &quot;Red / White&quot;,
+    &quot;venue&quot;: &quot;Emirates Stadium&quot;,
+    &quot;squad&quot;: [
+        {
+            &quot;id&quot;: 110,
+            &quot;name&quot;: &quot;Thomas Partey&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1993-06-13T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Ghana&quot;,
+            &quot;nationality&quot;: &quot;Ghana&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 3174,
+            &quot;name&quot;: &quot;Bernd Leno&quot;,
+            &quot;position&quot;: &quot;Goalkeeper&quot;,
+            &quot;dateOfBirth&quot;: &quot;1992-03-04T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Germany&quot;,
+            &quot;nationality&quot;: &quot;Germany&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 3244,
+            &quot;name&quot;: &quot;Cédric&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1991-08-31T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Germany&quot;,
+            &quot;nationality&quot;: &quot;Portugal&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 3477,
+            &quot;name&quot;: &quot;Granit Xhaka&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1992-09-27T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Switzerland&quot;,
+            &quot;nationality&quot;: &quot;Switzerland&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 3755,
+            &quot;name&quot;: &quot;Mohamed El Neny&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1992-07-11T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Egypt&quot;,
+            &quot;nationality&quot;: &quot;Egypt&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 5530,
+            &quot;name&quot;: &quot;Aaron Ramsdale&quot;,
+            &quot;position&quot;: &quot;Goalkeeper&quot;,
+            &quot;dateOfBirth&quot;: &quot;1998-05-14T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 6154,
+            &quot;name&quot;: &quot;Ben White&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1997-08-10T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7427,
+            &quot;name&quot;: &quot;Martin Ødegaard&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1998-12-17T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Norway&quot;,
+            &quot;nationality&quot;: &quot;Norway&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7647,
+            &quot;name&quot;: &quot;Pablo Marí&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1993-08-31T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Spain&quot;,
+            &quot;nationality&quot;: &quot;Spain&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7784,
+            &quot;name&quot;: &quot;Rob Holding&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1995-09-20T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7786,
+            &quot;name&quot;: &quot;Sead Kolašinac&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1993-06-20T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Germany&quot;,
+            &quot;nationality&quot;: &quot;Bosnia and Herzegovina&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7787,
+            &quot;name&quot;: &quot;Calum Chambers&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1995-01-20T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7792,
+            &quot;name&quot;: &quot;Ainsley Maitland-Niles&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1997-08-29T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7797,
+            &quot;name&quot;: &quot;Alexandre Lacazette&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;1991-05-28T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;France&quot;,
+            &quot;nationality&quot;: &quot;France&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7800,
+            &quot;name&quot;: &quot;Eddie Nketiah&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;1999-05-30T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 7801,
+            &quot;name&quot;: &quot;Pierre-Emerick Aubameyang&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;1989-06-18T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;France&quot;,
+            &quot;nationality&quot;: &quot;Gabon&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 8412,
+            &quot;name&quot;: &quot;Nicolas Pépé&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;1995-05-29T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;France&quot;,
+            &quot;nationality&quot;: &quot;Côte d’Ivoire&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 8862,
+            &quot;name&quot;: &quot;Albert Sambi Lokonga&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;1999-10-22T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Belgium&quot;,
+            &quot;nationality&quot;: &quot;Belgium&quot;,
+            &quot;shirtNumber&quot;: 48,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 9034,
+            &quot;name&quot;: &quot;Takehiro Tomiyasu&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1998-11-05T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Japan&quot;,
+            &quot;nationality&quot;: &quot;Japan&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 15615,
+            &quot;name&quot;: &quot;Kieran Tierney&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1997-06-05T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Isle of Man&quot;,
+            &quot;nationality&quot;: &quot;Scotland&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 23128,
+            &quot;name&quot;: &quot;Gabriel&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;1997-12-19T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Brazil&quot;,
+            &quot;nationality&quot;: &quot;Brazil&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 61450,
+            &quot;name&quot;: &quot;Martinelli&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;2001-06-18T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Brazil&quot;,
+            &quot;nationality&quot;: &quot;Brazil&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 80459,
+            &quot;name&quot;: &quot;Nuno Tavares&quot;,
+            &quot;position&quot;: &quot;Defender&quot;,
+            &quot;dateOfBirth&quot;: &quot;2000-01-26T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;Portugal&quot;,
+            &quot;nationality&quot;: &quot;Portugal&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 85570,
+            &quot;name&quot;: &quot;Emile Smith Rowe&quot;,
+            &quot;position&quot;: &quot;Midfielder&quot;,
+            &quot;dateOfBirth&quot;: &quot;2000-07-28T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 99813,
+            &quot;name&quot;: &quot;Bukayo Saka&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;2001-09-05T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        },
+        {
+            &quot;id&quot;: 131040,
+            &quot;name&quot;: &quot;Folarin Balogun&quot;,
+            &quot;position&quot;: &quot;Attacker&quot;,
+            &quot;dateOfBirth&quot;: &quot;2001-07-03T00:00:00Z&quot;,
+            &quot;countryOfBirth&quot;: &quot;England&quot;,
+            &quot;nationality&quot;: &quot;England&quot;,
+            &quot;shirtNumber&quot;: null,
+            &quot;role&quot;: &quot;PLAYER&quot;
+        }
+    ],
+    &quot;lastUpdated&quot;: &quot;2020-11-26T02:15:20Z&quot;
+}
+List of players[Aaron Ramsdale, Ben White, Rob Holding, Calum Chambers, Ainsley Maitland-Niles, Eddie Nketiah, Emile Smith Rowe, Bukayo Saka, Folarin Balogun]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 02/12/2021 23:16:56</p>
+</div>
+</div>
+</body>
+</html>
