@@ -2,6 +2,7 @@ import config.FootballApiConfig;
 import io.restassured.http.ContentType;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
@@ -12,6 +13,11 @@ import static io.restassured.RestAssured.given;
 
 public class FootballApiTests extends FootballApiConfig {
 
+    @Before
+    public void setUp(){
+
+        System.out.println("TESTE PRÉ EXECUÇÃO");
+    }
     @Test
     public void getDetailsOfOneArea(){
 
